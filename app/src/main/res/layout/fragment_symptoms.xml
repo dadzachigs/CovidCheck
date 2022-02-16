@@ -119,13 +119,14 @@
             <Button
                 android:id="@+id/next1"
                 android:layout_width="295dp"
-                android:layout_height="49dp"
-
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_red"
+                android:textColor="@color/deep_blue"
                 android:clickable="true"
                 android:padding="14dp"
                 android:layout_gravity="center"
                 android:text="@string/submit"
-                android:textColor="@color/white"
+
                 android:layout_marginTop="8dp"
                 />
         </LinearLayout>

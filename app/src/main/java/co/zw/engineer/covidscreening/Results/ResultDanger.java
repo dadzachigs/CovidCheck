@@ -34,7 +34,7 @@ public class ResultDanger extends AppCompatActivity {
 
         finished.setOnClickListener(v -> {
 
-
+               openDialog();
 
         });
     }

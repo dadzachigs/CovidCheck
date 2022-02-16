@@ -93,8 +93,9 @@
     <Button
         android:id="@+id/button"
         android:layout_width="115dp"
-        android:layout_height="33dp"
-
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_red"
+        android:textColor="@color/deep_blue"
         android:text="@string/finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

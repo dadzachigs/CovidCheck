@@ -38,7 +38,7 @@ public class ResultYes extends AppCompatActivity {
 
         finished.setOnClickListener(v -> {
 
-
+            openDialog();
         });
     }
 

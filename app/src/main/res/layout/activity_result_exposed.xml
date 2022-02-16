@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/result_pos"
+        android:text="EXPOSED"
         android:textAlignment="center"
         android:textColor="@color/deep_blue"
         android:textSize="24sp"
@@ -88,13 +88,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/qrtest2" />
+        app:srcCompat="@drawable/exposedqr" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="115dp"
-        android:layout_height="33dp"
-
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_red"
+        android:textColor="@color/deep_blue"
         android:text="@string/finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

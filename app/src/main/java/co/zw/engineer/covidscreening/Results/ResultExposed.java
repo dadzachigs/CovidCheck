@@ -35,7 +35,7 @@ public class ResultExposed extends AppCompatActivity {
 
         finished.setOnClickListener(v -> {
 
-
+         openDialog();
 
         });
     }

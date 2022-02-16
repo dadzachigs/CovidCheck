@@ -40,7 +40,7 @@ public class ResultNotClear extends AppCompatActivity {
 
 
 
-
+            openDialog();
 
 
         });
