@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+
+    <Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deep_blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarWidgetTheme"
+
+        android:titleTextColor="@color/white"
+        app:popupTheme="@style/AppTheme"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"  >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_arrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+            <TextView
+                android:id="@+id/who_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GoZ Assessed and Certified test centers"
+                android:layout_centerVertical="true"
+                android:textSize="12sp"
+                android:layout_marginLeft="38dp"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="55dp"
+                android:src="@drawable/ministry_of_helth"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="18dp"/>
+            "
+
+        </RelativeLayout>
+    </Toolbar>
+
+
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingPrefix"
+        android:background="@color/orangeMain"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@color/deep_blue"
+
+        >
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabChats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/provincial" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/national" />
+
+
+
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

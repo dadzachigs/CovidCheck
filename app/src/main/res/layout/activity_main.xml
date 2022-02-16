@@ -60,7 +60,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="12dp"
                 android:src="@drawable/prof_pic"
-                android:tint="@color/white" />
+                app:tint="@color/white" />
 
 
             <TextView
@@ -95,17 +95,15 @@
         </RelativeLayout>
 
 
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
-        android:orientation="horizontal"
-        android:id="@+id/first"
-        android:gravity="center_horizontal"
-
-        >
+            >
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/scan"
@@ -120,8 +118,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <ImageView
 
@@ -130,25 +127,18 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/screen2"
-                        android:tint="@color/deep_blue"
-                        />
+                        app:tint="@color/deep_blue" />
 
 
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Self Screen"
-                            android:textSize="16sp"
-                            android:layout_marginTop="8dp"
-                            android:textStyle="bold"
-                            android:textColor="@color/deep_blue"
-                            android:layout_gravity="center_horizontal"
-                            />
-
-
-
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/self_screen"
+                        android:textColor="@color/deep_blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -157,63 +147,55 @@
             </androidx.cardview.widget.CardView>
 
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/help"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:layout_alignEnd="@+id/scan"
+                android:layout_margin="6dp"
+                android:layout_marginTop="-3dp"
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/help"
-            android:layout_width="155dp"
-            android:layout_height="155dp"
-            android:layout_margin="6dp"
-            android:layout_alignEnd="@+id/scan"
-            android:layout_marginTop="-3dp"
+                android:clickable="true">
 
-            android:clickable="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                >
+                    <ImageView
 
-                <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/call2"
 
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="12dp"
-                    android:src="@drawable/call2"
-                    android:tint="@color/deep_blue"
-
-                    />
+                        app:tint="@color/deep_blue" />
 
 
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Seek Help"
-                    android:textSize="16sp"
-                    android:layout_marginTop="8dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/deep_blue"
-                    android:layout_gravity="center_horizontal"
-                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:text="Seek Help"
+                        android:textColor="@color/deep_blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
 
+                </LinearLayout>
 
 
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-
-            </LinearLayout>
-
-
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/first"
-            android:orientation="horizontal"
             android:gravity="center_horizontal"
+            android:orientation="horizontal"
 
             >
 
@@ -230,8 +212,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <ImageView
 
@@ -240,25 +221,18 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/infor2"
-                        android:tint="@color/deep_blue"
-                        />
-
+                        app:tint="@color/deep_blue" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Covid Info"
-                        android:textSize="16sp"
-                        android:layout_marginTop="8dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/deep_blue"
                         android:layout_gravity="center_horizontal"
-                        />
-
-
-
-
+                        android:layout_marginTop="8dp"
+                        android:text="Covid Info"
+                        android:textColor="@color/deep_blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -267,13 +241,12 @@
             </androidx.cardview.widget.CardView>
 
 
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/results"
                 android:layout_width="155dp"
                 android:layout_height="155dp"
-                android:layout_margin="6dp"
                 android:layout_alignEnd="@+id/scan"
+                android:layout_margin="6dp"
                 android:layout_marginTop="-3dp"
 
                 android:clickable="true">
@@ -281,8 +254,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
 
                     <ImageView
 
@@ -291,26 +263,19 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="12dp"
                         android:src="@drawable/report"
-                        android:tint="@color/deep_blue"
 
-                        />
-
+                        app:tint="@color/deep_blue" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Results"
-                        android:textSize="16sp"
-                        android:layout_marginTop="8dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/deep_blue"
                         android:layout_gravity="center_horizontal"
-                        />
-
-
-
-
+                        android:layout_marginTop="8dp"
+                        android:text="Results"
+                        android:textColor="@color/deep_blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
 
                 </LinearLayout>
@@ -318,13 +283,7 @@
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
-        </RelativeLayout>
-
-
-
-
-
-
+    </RelativeLayout>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

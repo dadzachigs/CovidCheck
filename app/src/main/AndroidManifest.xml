@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidScreening">
+        <activity android:name=".help.ContactsTab"></activity>
+        <activity android:name=".information.InformationTabView" />
+        <activity android:name=".SeekHelp" />
+        <activity android:name=".Results.ResultYes" />
+        <activity android:name=".Results.ResultNotClear" />
+        <activity android:name=".SrveyStart" />
+        <activity android:name=".Results.ResultExposed" />
+        <activity android:name=".Results.ResultDanger" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

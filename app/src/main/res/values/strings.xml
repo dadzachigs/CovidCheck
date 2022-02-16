@@ -1,3 +1,211 @@
 <resources>
     <string name="app_name">CovidScreening</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="terms2">  <b>Terms </b>\n \t
+    Please note that the information provided by the online COVID-19
+    assessment is offered only as helpful educational information and self-assessment of your symptoms.
+    This self assessment does not replace professional evaluation or recommendations by your doctor and does not provide
+    any treatment to any disease or symptoms including COVID-19. Any guidelines and suggestions provided is based
+    on the accuracy of the information provided and the COVID-19 Task-force guidelines which are subject to change. If you are concerned
+    about your immediate medical condition, seek professional medical attention and do not delay based on this educational
+    information. By clicking continue you are accepting terms and conditions of this application.    </string>
+
+
+    <string name="terms">  <b>Terms </b>\n \t
+        Please note that the information provided by the online COVID-19
+        assessment is offered only as helpful educational information and self-assessment of your symptoms.
+        This self assessment does not replace professional evaluation or recommendations by your doctor and does not provide
+        any treatment to any disease or symptoms including COVID-19. Any guidelines and suggestions provided is based
+        on the accuracy of the information provided and the COVID-19 Task-force guidelines which are subject to change. If you are concerned
+        about your immediate medical condition, seek professional medical attention and do not delay based on this educational
+        information. By clicking continue you are accepting terms and conditions of this application.
+        \n
+        \n
+
+       <b>PERSONAL INFORMATION WE COLLECT </b>\n \t
+
+       When you visit the app as a registered user, we automatically collect certain information about your login, including information
+        about your name and phone number. Additionally, as you take your COVID-19 self screening tests, we collect information about the
+        COVID-19 symptoms you are having only if You choose to save the test result.
+
+
+       Additionally when you access your Camera through the application no information will be collected or saved. The camera is only
+        accessed when you need to verify test certificate by scanning the QR code.
+
+
+    We use saved symptoms to do analytics of main COVID-19 symptoms that people are having for decision making. The analytics will have
+        nothing to do with your details such as name and phone number
+\n
+        \n
+  <b> SHARING YOUR PERSONAL INFORMATION </b>\n \t
+
+We do not share your personal information with anyone
+
+\n
+        \n
+
+<b> YOUR RIGHTS </b>\n \t
+You have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
+
+\n
+        \n
+
+<b> DATA RETENTION </b>\n \t
+When you register on the app, we will maintain your registration Information for our records unless and until you ask us to delete this information.
+    </string>
+    <string name="qsn1">Do you have chest pains or dry cough that recently started? </string>
+    <string name="qsn2">Sore throat or troubled swallowing that recently started? </string>
+    <string name="qsn3">Shortness of breath that started recently?</string>
+    <string name="qsn4">Do you feel very hot or cold?.Are you sweating of shivering for no reason?</string>
+    <string name="qsn5">Have you noticed any changes in your ability to test or smell things?</string>
+    <string name="qsn6">In the past days have you experienced body pains, especially your muscles hurting more than usual?</string>
+
+    <string name="mitemo">TERMS\n \t Nzwisiai kuti ruzivo rwamuchawana pano rwunongopiwa se ruzivo rwunokwanisa kukubatsira kuti uzvi tarise kana usina mukana wekuva ne COVID-19 uye kuti uone kana usina zviratidzo zve COVID-19.
+Kuzviongorora uchishandisa application ino hakubvise kukosha kweku tsvaka kunzwisisa uye rubatsiro kubva kunana mazvikokota vezveutano. Application ino haina kurapa kwainokuita pachirwere che COVID-19 or chero chimwe chirwere chaungava nacho.
+Matanho uye kurudziro yaungawane pane ino application ino enderana nekuti iwe wapa nhinduro dzechokwadi here uye zvimiso zve NICD izvo zvinokwanisa kushanduka nguva ne nguva. Pamusoro pehutano hwako kasika kutsvaga rubatsiro kune vezvehutano, usanonoka uchivimba ne application ino.
+</string>
+    <string name="tanga">TANGA ONGORORO</string>
+    <string name="ramba">HANDIKWANISE </string>
+    <string name="scarry">Oh Good Lord!Keeping your hands clean,washing them for at least 20 seconds at a time
+    with water and soap is a great defense against Infection. Make it your habit</string>
+    <string name="presult">You sound like you are doing well - no need to test right now but repeat this test in 1 week or if anything
+    changes!. </string>
+    <string name="nresult">It sounds like you need to test for COVID-19, please contact
+    the COVID-19 emergency numbers or send "hi" on whatsApp to +263777 777 777 for more help </string>
+    <string name="goodjob">Good job!Keeping your hands clean,washing them  for at least 20 seconds
+    with water and soap is a great defense against infection. Keep it Up</string>
+    <string name="barchart">BarChart</string>
+    <string name="title_activity_test3">Test3</string>
+    <string name="yes">Yes</string>
+    <string name="submit">NEXT</string>
+    <string name="no">no</string>
+    <string name="title_activity_main2">COVID-19 Self-Screen</string>
+    <string name="action_settings">About Us</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="self_screenb">Self Screen</string>
+    <string name="get_help">Get Help</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="signin">SignIn</string>
+    <string name="national">National</string>
+    <string name="provincial">Provincial</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="i_have_an_account_login">I have an account? login</string>
+    <string name="go_login">GO</string>
+    <string name="welcome">Welcome</string>
+    <string name="make_a_call">Make a Call</string>
+    <string name="send_whatsapp">Send WhatsApp</string>
+    <string name="result_neg">NEGATIVE</string>
+    <string name="result_pos">POSITIVE</string>
+    <string name="result_not">NOT CLEAR</string>
+    <string name="result_exp">EXPOSED</string>
+    <string name="would_you_like_sharing_your_result">Would You Like Sharing Your Result?</string>
+    <string name="click_here">Click Here</string>
+    <string name="finish">Finish</string>
+    <string name="you_are_in_danger">YOU ARE IN DANGER OF GETTING COVID-19!!!!!</string>
+    <string name="continue_hey">Continue</string>
+    <string name="continue_to_test">Continue</string>
+    <string name="enter_password">PIN</string>
+    <string name="enter_phone_number">Phone number</string>
+    <string name="begin_your_journey">Signup to begin your journey</string>
+    <string name="Dob">DOB</string>
+    <string name="first_name">First name</string>
+    <string name="qsn9">Do you stay with a person who is COVID-19 infected?</string>
+    <string name="qsn10">Are you a health professional with greater chances of being exposed?</string>
+    <string name="qsn11">Have you been near a person diagnosed with COVID_19 in the last 14days?</string>
+    <string name="qsn13">In the last 14 days did you travel out of Zimbabwe?</string>
+    <string name="qsn14">Have you been to COVID-19 Hotspot within Zimbabwe?</string>
+    <string name="qsn12">None of the above</string>
+    <string name="title_activity_result_not_clear">ResultNotClear</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="title_activity_result_exposed">ResultExposed</string>
+    <string name="result_exposed">It sounds like you were exposed to COVID-19, please protect the ones you
+        love by social distancing, wearing your mask always and isolating for the next 4 days while checking for any symptoms</string>
+    <string name="result_not_clear">It is not clear at the moment that the symptoms you have are COVID-19 symptoms, in the meantime please protect the ones you love by social distancing, wearing your mask always and Isolating for the next 4 days and repeat the test</string>
+    <string name="id_number">Id number</string>
+    <string name="title_activity_combined_final">CombinedFinal</string>
+    <string name="title_activity_new_dashboard">NewDashboard</string>
+    <string name="symptoms_txt">Know about COVID-19 symptoms </string>
+    <string name="you_are_safe">Know about COVID-19 vaccine</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="in_danger">You need to get tested</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+
+    <string name="approved_labs">  Private Labs \n
+        \n
+1. Lancet laboratories \n 2. PSMI Harare Branch
+3. Cimas Harare laboratory \n
+4. Diagnopath laboratory Harare \n
+5. Klosad Laboratory Harare\n
+6. Mater Dei Hospital Laboratory (DLS)\n
+7. Multi Tech\n
+8. Flow Cytometry\n
+9. Haematology Centre\n
+10. Bioexpress Laboartory\n
+11. Genau Laboratory\n
+12. Patholgy Laboratory\n
+13. Unki Mine Laboratory\n
+14. Upper East medical Centre, Avondale Harare\n
+15. Biotech Institute, Avondale West Harare\n
+16. Humacare Medical Laboratory, Longcheng Harare\n
+17. Interpath Medical Laboratory, Fife Avenue Harare\n
+18. Mbuya Dorcas Medical Laboratory, Watefalls Harare\n
+19. Urea Breath Centre, Baines avenues Harare\n
+20. Baines Imaging Group, 52 Baines Avenues Harare\n
+21. Lordsland Medical Laboratory, Zvishavane\n
+22. Kei Laboratories, Bulawayo\n
+        \n
+        \n
+
+
+Government Laboratories\n
+       \n
+        \n
+1. National Microbiology Reference Laboratories\n
+2. National TB Reference Laboratory\n
+3. Plumtree District Hospital\n
+4. Gwanda Provincial Hospital\n
+5. Beitbridge District Hospital\n
+6. St Lukes Mission Hospital\n
+7. Victoria Falls Hospital\n
+8. Gutu Mission Hospital\n
+9. Masvingo Provincial Hospital\n
+10. Gweru Provincial Hospital\n
+11. Chinhoyi Provincial Hospital\n
+12. Kadoma General Hospital\n
+13. Marondera Provincial Hospital\n
+14. St Alberts Mission Hospital\n
+15. Bindura Provincial Hospital\n
+16. Rusape General Hospital\n
+17. Mutare Provincial Hospital\n
+18. Chipinge District Hospital\n
+19. Sally Mugabe Central Hospital\n
+20. Parirenyatwa Central Hospital\n
+21. National Virology Reference Laboratory\n
+22. Chitungwiza Central Hospital\n
+23. Chikurubi Maximum Prison\n
+24. Thorngrove Hospital Laboratory\n
+25. Beatrice Road Infectiuos Diseases Hospital\n
+26. Josiah Tongogara Magama \n
+        \n
+        \n
+
+
+    </string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">You Are About To Save Your Result</string>
+    <string name="self_screen">Self Screen</string>
+
 </resources>

@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="0dp"
+        android:weightSum="55"
+        android:orientation="vertical"
+
+        tools:context="zw.co.trigonsolutes.covid19zimapp.withAccount.NewDashboard"
+        tools:deviceIds="wear">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="6dp"
+
+                android:layout_marginStart="16dp"
+
+                android:src="@drawable/ministry_of_helth" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="6dp"
+                android:text="Partner Testing Centers"
+                android:textColor="@color/deep_blue"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:layout_weight="0"
+
+                android:padding="12dp"
+                android:weightSum="1">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/screen2"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/border_red"
+
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_red"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/oglogo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="24dp"
+                                android:src="@drawable/pathlabs" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/oglogo"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="Pathology Laboratories"
+                                android:textAlignment="center"
+                                android:textColor="@color/materialGreen"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="15 Baines Ave, Harare"
+                                android:textAlignment="center"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/address"
+                            android:layout_toRightOf="@+id/oglogo"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <Button
+                                android:id="@+id/call_lab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="call"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/sms_lab"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="message"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/screen3"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen2"
+                    android:layout_marginTop="6dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/border_red"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_red">
+
+                        <LinearLayout
+                            android:id="@+id/oglogo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="24dp"
+                                android:src="@drawable/coronavirus_logo_finali3" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/address2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/oglogo2"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="SPACE FOR SALE"
+                                android:textAlignment="center"
+                                android:textColor="@color/materialGreen"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="Your address"
+                                android:textAlignment="center"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/address2"
+                            android:layout_toRightOf="@+id/oglogo2"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <Button
+                                android:id="@+id/call_lab2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="call"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/sms_lab2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="message"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/screen4"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen3"
+                    android:layout_marginTop="6dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/border_red"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_red">
+
+                        <LinearLayout
+                            android:id="@+id/oglogo3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="24dp"
+                                android:src="@drawable/coronavirus_logo_finali3" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/address3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/oglogo3"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="SPACE FOR SALE"
+                                android:textAlignment="center"
+                                android:textColor="@color/materialGreen"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="Your address"
+                                android:textAlignment="center"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/address3"
+                            android:layout_toRightOf="@+id/oglogo3"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <Button
+                                android:id="@+id/call_lab3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="call"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/sms_lab3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="message"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/screen5"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen4"
+                    android:layout_marginTop="6dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/border_red"
+                    android:clickable="true"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_red">
+
+                        <LinearLayout
+                            android:id="@+id/oglogo4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginTop="24dp"
+                                android:src="@drawable/coronavirus_logo_finali3" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/address4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/oglogo4"
+                            android:orientation="vertical"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="SPACE FOR SALE"
+                                android:textAlignment="center"
+                                android:textColor="@color/materialGreen"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:text="Your address"
+                                android:textAlignment="center"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="10sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/address4"
+                            android:layout_toRightOf="@+id/oglogo4"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:paddingLeft="8dp">
+
+
+                            <Button
+                                android:id="@+id/call_lab4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="call"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/sms_lab4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginBottom="1dp"
+                                android:background="@drawable/border_red"
+                                android:text="message"
+                                android:textColor="@color/deep_blue"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

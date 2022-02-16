@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="76dp"
+        android:src="@drawable/coronavirus_logo_finali3"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMediumInverse"
+        android:text="EXPOSURE"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity=""
+            android:layout_marginTop="44dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity=""
+
+                >
+
+
+
+                <CheckBox
+                    android:id="@+id/qsn09"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:padding="10dp"
+                    android:text="@string/qsn9"
+                    android:textAppearance="?android:textAppearanceMediumInverse"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/qsn11"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:padding="10dp"
+                    android:text="@string/qsn11"
+                    android:textAppearance="?android:textAppearanceMediumInverse"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/qsn10"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:padding="10dp"
+                    android:text="@string/qsn10"
+                    android:textAppearance="?android:textAppearanceMediumInverse"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/qsn12"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/black"
+                    android:padding="10dp"
+                    android:text="@string/qsn12"
+                    android:textAppearance="?android:textAppearanceMediumInverse"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/next2"
+                android:layout_width="295dp"
+                android:layout_height="49dp"
+
+                android:clickable="true"
+                android:padding="14dp"
+                android:layout_gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:layout_marginTop="24dp"
+                />
+            <Button
+                android:id="@+id/back1"
+                android:layout_width="295dp"
+                android:layout_height="49dp"
+
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:padding="14dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/back"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

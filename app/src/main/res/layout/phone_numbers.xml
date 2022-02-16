@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/dfd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="18dp"
+        >
+
+        <TextView
+            android:id="@+id/nature"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentEnd="true"
+            android:text="ddd"
+            android:textColor="@color/deep_blue"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/town"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="80dp"
+            android:textStyle="bold"
+            android:textColor="@color/deep_blue"
+            android:layout_alignParentEnd="true"
+            android:text="ccc"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:id="@+id/lab_name"
+            android:textSize="16sp"
+            android:layout_marginStart="20dp"
+
+            android:text="Upper East Medical Center"
+            android:textColor="@color/black"
+            android:layout_marginEnd="20dp"
+            android:maxLines="1"
+            android:layout_marginTop="44dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/examPic"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/lab_name"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/ic_baseline_add_location_24"/>
+
+        <TextView
+            android:id="@+id/lab_address"
+            android:layout_toEndOf="@+id/examPic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lab_name"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="567 Drew Drive, Msasa Harare"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/examPic2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/lab_address"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/ic_baseline_phone_24"
+            app:tint="@color/deep_blue" />
+
+        <TextView
+            android:id="@+id/phone_num"
+            android:layout_toEndOf="@+id/examPic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lab_address"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="+2678877887 6678"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/border2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentBottom="true"
+            android:background="#808080"/>
+
+    </RelativeLayout>
+</RelativeLayout>
